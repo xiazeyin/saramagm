@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"time"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
 	"github.com/rcrowley/go-metrics"
 )

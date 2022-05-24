@@ -16,7 +16,7 @@ package mocks
 import (
 	"errors"
 
-	"gitee.com/zhaochuninhefei/saramagm/sarama"
+	"github.com/xiazeyin/saramagm/sarama"
 )
 
 // ErrorReporter is a simple interface that includes the testing.T methods we use to report

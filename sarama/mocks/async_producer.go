@@ -3,7 +3,7 @@ package mocks
 import (
 	"sync"
 
-	"gitee.com/zhaochuninhefei/saramagm/sarama"
+	"github.com/xiazeyin/saramagm/sarama"
 )
 
 // AsyncProducer implements sarama's Producer interface for testing purposes.

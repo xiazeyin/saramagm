@@ -4,7 +4,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"gitee.com/zhaochuninhefei/saramagm/sarama"
+	"github.com/xiazeyin/saramagm/sarama"
 )
 
 // Consumer implements sarama's Consumer interface for testing purposes.

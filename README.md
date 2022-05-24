@@ -4,7 +4,7 @@ saramagm
 # saramagm
 saramagm是基于sarama的`1.20.1`版本，进行了少量扩展的Kafka 客户端Go类库。
 
-- 使用`gitee.com/zhaochuninhefei/gmgo/gmtls`代替Go的`crypto/tls`
+- 使用`github.com/xiazeyin/gmgo/gmtls`代替Go的`crypto/tls`
 - 重构`sarama`包的目录结构
 
 # 版权声明

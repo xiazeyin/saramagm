@@ -1,9 +1,8 @@
-module gitee.com/zhaochuninhefei/saramagm
+module github.com/xiazeyin/saramagm
 
-go 1.17
+go 1.16
 
 require (
-	gitee.com/zhaochuninhefei/gmgo v0.0.14
 	github.com/DataDog/zstd v1.5.0
 	github.com/davecgh/go-spew v1.1.1
 	github.com/eapache/go-resiliency v1.2.0
@@ -13,15 +12,11 @@ require (
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475
 )
 
-require (
-	github.com/golang/snappy v0.0.4 // indirect
-	golang.org/x/sys v0.0.0-20220310020820-b874c991c1a5 // indirect
-)
+require github.com/golang/snappy v0.0.4 // indirect
 
 require (
-	gitee.com/zhaochuninhefei/zcgolog v0.0.14 // indirect
 	github.com/frankban/quicktest v1.14.2 // indirect
-	golang.org/x/crypto v0.0.0-20220214200702-86341886e292 // indirect
+	github.com/xiazeyin/gmgo v0.0.0-20220524080332-30d9ca7379fe
 )
 
-// replace gitee.com/zhaochuninhefei/gmgo => /home/zhaochun/work/sources/gm-zc/gmgo
+// replace github.com/xiazeyin/gmgo => /home/zhaochun/work/sources/gm-zc/gmgo

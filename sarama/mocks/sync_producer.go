@@ -3,7 +3,7 @@ package mocks
 import (
 	"sync"
 
-	"gitee.com/zhaochuninhefei/saramagm/sarama"
+	"github.com/xiazeyin/saramagm/sarama"
 )
 
 // SyncProducer implements sarama's SyncProducer interface for testing purposes.
